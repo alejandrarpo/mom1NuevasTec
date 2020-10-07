@@ -1,0 +1,78 @@
+﻿.menu ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+
+}
+.menu a {
+  display: block;
+  padding: 1.26em;
+  background-color: #ca93f7;
+  text-decoration: none;
+  color: #191C26;
+  
+}
+.menu a:hover {
+  background-color: #b73ef0;
+}
+.menu ul li ul {
+  display: none;
+}
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+  display: block;
+}
+
+
+.buscar {
+  padding: 1.06em;
+  background: #ca93f7;
+
+}
+img {
+  background-color: #ca93f7;
+}
+footer{
+  background-color:#ca93f7;
+  color: white;
+  padding: 2em;
+}
+#lista{
+  float: right;
+  margin-right: 2em;
+}
+.v1{
+  margin: 2em;
+}
+.v2{
+  margin: 2em;
+}
+.titulo{
+  margin: 1em;
+}
+
+.boton_personalizado{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #1883ba;
+  border-radius: 6px;
+  border: 2px solid #0016b0;
+  margin-left: 2em;
+}
+
+/*header {
+  background: #ca93f7;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+
+
+
+
+
